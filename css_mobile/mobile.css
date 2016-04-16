@@ -1,0 +1,95 @@
+@CHARSET "utf-8";
+
+
+@font-face {
+  font-family: 'nexa_light';
+  src: url('../nexa_light/nexa_light-webfont.eot');
+  src: url('../nexa_light/nexa_light-webfont.eot?iefix') format('eot'), url('../nexa_light/nexa_light-webfont.woff') format('woff'), url('../nexa_light/nexa_light-webfont.ttf') format('truetype'), url('../nexa_light/nexa_light-webfont.svg#webfontjSpbZQRv') format('svg');
+}
+@font-face {
+  font-family: 'HiraKakuPro';
+  src: url('../hirakakupro-w3-opentype/hirakakupro-w3-opentype.otf');
+}
+
+/*フォームパーツはデフォルトスタイルを解除する(!importantは無し)*/
+
+h1, h2, h3, h4, h5, h6, p, li, a, td, th, div, input, select, textarea {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.webfont {
+  font-family: 'nexa_light';
+}
+
+.m_font {
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* For modern browsers */
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+
+.clearfix {
+  zoom: 1;
+}
+
+body {
+  font-family: "ヒラギノ明朝 ProN W2", "HiraMinProN-W2", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  color: #333333;
+}
+
+.mintyou {
+  font-family: serif;
+}
+
+.page_wrapper {
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 100%;
+}
+
+h5 {
+  font-size: 80%;
+}
+
+h6 {
+  font-size: 70%;
+}
+
